@@ -1,0 +1,8 @@
+BUILD
+RPMS
+SOURCES/*.tar.gz
+SOURCES/*.zip
+SRPMS/*.src.rpm
+*~
+
+
