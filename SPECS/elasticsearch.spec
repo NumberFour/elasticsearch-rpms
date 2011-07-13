@@ -2,7 +2,7 @@
 
 Name:           elasticsearch
 Version:        0.16.2
-Release:        1%{?dist}
+Release:        4001%{?dist}
 Summary:        A distributed, highly available, RESTful search engine
 
 Group:          System Environment/Daemons
@@ -215,6 +215,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Jul 13 2011 Jens Braeuer <jens@numberfour.eu> - 0.16.2-4001
+- Increase max. number of open files.
+
 * Thu Jun 02 2011 Dan Everton dan.everton@wotifgroup.com 0.16.2-1
 - New Upstream version 
 
