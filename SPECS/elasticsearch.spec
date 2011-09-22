@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:           elasticsearch
-Version:        0.17.1
+Version:        0.17.2
 Release:        4001%{?dist}
 Summary:        A distributed, highly available, RESTful search engine
 
