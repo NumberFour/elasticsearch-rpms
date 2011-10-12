@@ -16,6 +16,7 @@ readonly BASEDIR=$(readlink -f $(dirname "$0"))
 mkdir -p ${BASEDIR}/{RPMS,BUILD}
 rpmbuild --verbose \
     --define "_topdir ${BASEDIR}" \
+    --define "_rpmdir ${BASEDIR}/RPMS" \
     -bb "${BASEDIR}/SPECS/elasticsearch.spec"
 
 

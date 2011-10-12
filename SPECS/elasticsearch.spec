@@ -2,7 +2,7 @@
 
 Name:           elasticsearch
 Version:        0.17.2
-Release:        4001%{?dist}
+Release:        4002%{?dist}
 Summary:        A distributed, highly available, RESTful search engine
 
 Group:          System Environment/Daemons
